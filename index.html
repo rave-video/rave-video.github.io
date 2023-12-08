@@ -252,7 +252,7 @@
                 Our process begins by performing a DDIM inversion with the pre-trained T2I model and condition extraction with an off-the-shelf condition preprocessor applied to the input video ($V_K$). These conditions are subsequently input into ControlNet. In the RAVE video editing process, diffusion denoising is performed for T timesteps using condition grids ($C_L$), latent grids ($G_L^t$), and the target text prompt as input for ControlNet. Random shuffling is applied to the latent grids ($G_L^t$) and condition grids ($C_L$) at each denoising step. After T timesteps, the latent grids are rearranged, and the final output video ($V_K^*$) is obtained.</p>
             </td>
           </tr>
-            <img src="static/images/model_overview_redesigned.jpg" alt="model_overview"/>
+            <img src="static/images/FIG3.jpg" alt="model_overview"/>
         </tbody>
       </table>
       </div>
